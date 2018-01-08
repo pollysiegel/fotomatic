@@ -271,6 +271,8 @@ header .mobile {
   color: #4a4a4a;
 }
 
+/* Tablet landscape mode */
+
 @media only screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
@@ -385,16 +387,21 @@ header .mobile {
 @media only screen and (max-width: 760px) {
   #quotes-section .content {
     padding: 1.875rem .625rem;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: left;
+    vertical-align: top;
   }
 
   #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
+    text-align: left;
+    padding-left: 2rem;
   }
 
   #quotes-section .quote-citation {
     display: block;
-    padding-top: 1rem;
     margin: auto;
   }
 }
